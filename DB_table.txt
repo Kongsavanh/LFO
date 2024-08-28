@@ -1,0 +1,54 @@
+all Tables
+
+1. Table: User
+    Fill            Fill Type
+    - Name           String
+    - Email          String
+    - Password       String
+    
+2. Table: PR
+    Fill            Fill Type
+    - PR_No             String
+    - Description       String
+    - PR_Date           Date
+    - PR_Status         String
+
+3. Table: Store
+    Fill            Fill Type
+    - name              String
+    - image             String
+    - amount            integer
+    - priceBuy          integer
+    - priceSale         integer
+
+4. Table: Transection
+    Fill            Fill Type
+    - tran_ID         String
+    - tran_Type       String
+    - product_id      String
+    - amount          integer
+    - price           integer
+    - tran_detail     String
+
+5. Table: Bill
+    Fill            Fill Type
+    - bill_id          String
+    - customer_name    String
+    - customer_tel     String
+
+6. Table: Bill_list
+    Fill            Fill Type
+    - bill_id          String
+    - name             String
+    - amount           integer
+    - Price            integer
+
+
+# List controller
+    - BillController
+    - PRControler                ລາຍການ ຂໍຊື້ສິນຄ້າ
+    - POControler                ລາຍການ ສັ່ງຊື້ສິນຄ້າ
+    - InventoyController           Stock Product
+    - TransectionController         ຈັດການທຸລະກຳ
+    - UserController                User managerment
+    - ReportController              Report managerment
